@@ -1,0 +1,172 @@
+body {
+   width:100%;
+   height:100%;
+  /*overflow-x: hidden;*/
+  font-family: 'Ovo', serif;
+ /* padding-top: 70px;*/
+}
+
+p {
+  font-family: 'Fanwood Text', serif;
+  font-size: 16px;
+}
+
+.navbar {
+  /*eliminate white space under bootstrap's nav bar*/
+  /*background-color: white;*/
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 2px solid #cccccc;
+}
+
+#myNavbar a:visited {
+ background-color: white;
+}
+
+.active {
+  background-color: white;
+  text-decoration: underline;
+}
+
+.navbar-header  a {
+  font-size: 25px;
+}
+
+/* Using bootstrap's navbar default blue color: #337ab7 */
+.icon-bar{
+  background-color: #337ab7;
+}
+
+#cover {
+  max-width: 100%;
+  height: 100vh;
+  /*padding-top: 200px;*/
+  background-image: url(../images/glassesInDesk.jpg);
+  
+ /*
+  background-image: url(https://images.unsplash.com/photo-1415394171664-b29caa4dca77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=573e0c5f7ecd48c7dd642885a880b41f);
+  background-image: url(   https://images.unsplash.com/photo-1452711932549-e7ea7f129399?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58b1e18ecae2804d6f2df344530bdaf6);
+   background-image: url(https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a9c79afe3d7a158a876502b1cc548332);
+   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: 100%; 
+  background-color: #cccccc;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.arrow {
+ /*background-color: black;*/
+}
+
+.arrow .btn {
+  color: white;
+  font-size: 50px;
+}
+
+.section{
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: white;
+}
+
+#cover-name{
+  /*Padding: Controls the amount of space the element and its border*/
+  color: white;
+  padding-bottom: 350px;
+  font-size: 80px;
+}
+
+h2{
+ margin-bottom: 70px;
+  font-size: 40px;
+  weight: 100%;
+  
+}
+
+h3{
+   font-size: 38px;
+  font-weight: 100;
+}
+
+h4{
+   font-size: 30px;
+}
+
+#projects {
+/* background-color:  #bfbfbf;*/
+  background-color: #D3D3D3;
+  /* z-index: 1003; */
+}
+
+#projects > h2{
+  margin-bottom: 0;
+}
+
+#projects > #subheader{
+  margin-bottom: 70px;
+   font-size: 22px;
+  color: #337ab7;
+}
+
+
+#projects a{
+    color: black;
+}
+
+#projects a:hover{
+   color: #337ab7;
+}
+
+.thumbnail{
+  background-color: #D3D3D3;
+}
+
+.row {
+ /*background-color: green;*/
+  margin-bottom: 50px;
+}
+
+/* Using bootstrap's navbar default blue color: #337ab7 */
+#contact a:visited { 
+    color: #337ab7;
+}
+
+#contact a:link {
+    color: #337ab7;
+}
+
+.btn-social-icon{
+  font-size: 50px;
+}
+
+footer {
+  padding: 50px;
+  font-size: 16px;
+}
+
+.navbar-default{
+   background-color: gray;
+  /*background-color: #EEE;*/
+}
+
+@media only all and (max-width: 1000px) {
+  /*375px is current width of about-me-pic. Adjust when changing image. Wonder if I could have used responsive boostrap for this.*/
+  .aboutme-pic-holder{
+     width: 375px;
+     margin: auto;
+  }
+  
+  #about p{
+  text-align: justify;
+  }
+   
+  .project-details{
+  text-align: center;
+  }s
+}

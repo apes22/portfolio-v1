@@ -1,0 +1,121 @@
+<!--Excited to build my first personal portfoilio webpage using boostrap :) -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FreeCodeCamp: Build a Personal Portfolio Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'>
+</head>
+
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="50" >
+<div class="container-fluid">
+  <!--Currently my nav bar is covering the top portion of my other sections. Need to fix this.-->
+  <nav class="navbar navbar-fixed-top">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <!--clicking the nav-brand element should reload the page-->
+        <a class="navbar-brand" href="#top">MARIBEL DURAN</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div><!-- end navbar-collapse -->  
+  </nav>
+  <div id="cover">
+    <h1 id="cover-name" class="text-center animated bounceInDown">
+      <b>HI, I'M MARIBEL</b>
+    </h1>
+    <div class="arrow animated bounce text-center">
+      <a href="#about" class="btn btn-lg">
+        <span class="glyphicon glyphicon-menu-down"></span>
+      </a>
+    </div><!--end arrow-->
+  </div>
+
+  <!-- ABOUT ME section -->
+  <div id="about" class="section">
+    <h2 class="text-center">ABOUT ME</h2>
+  </div><!-- end about section -->
+  
+  <!-- PROJECTS section -->
+  <div id="projects" class="section">
+    <h2 class="text-center">PROJECTS</h2>
+    <p id="subheader" class="text-center">-Made with Love-</p>
+  </div><!-- end  projects section -->
+
+  <!-- CONTACT section -->
+  <div id="contact" class="section">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row  text-center">
+
+      <!--LinkedIn logo-->
+      <div class="col-sm-2">
+        <a href="https://www.linkedin.com/in/maribelduran" target="_blank" class="btn btn-social-icon btn-linkedin">
+          <span class="fa fa-linkedin"></span>
+        </a>
+      </div>
+
+      <!--email logo-->
+      <div class="col-sm-2">
+        <a href="mailto:maribelduranucm@gmail.com" target="_blank" class="btn btn-social-icon btn-envelope">
+          <span class="fa fa-envelope"></span>
+        </a>
+      </div>
+      <!--instagram logo -->
+
+      <div class="col-sm-2">
+        <a href="https://www.instagram.com/mariclay" target="_blank" class="btn btn-social-icon btn-instagram">
+          <span class="fa fa-instagram"></span>
+        </a>
+      </div>
+      <!--medium logo -->
+      <div class="col-sm-2">
+        <a href="https://medium.com/@maribelduran" target="_blank" class="btn btn-social-icon btn-instagram">
+          <span class="fa fa-medium"></span>
+        </a>
+      </div>
+      
+       <!--github logo -->
+      <div class="col-sm-2">
+        <a href="https://github.com/maribelduran" target="_blank" class="btn btn-social-icon btn-instagram">
+          <span class="fa fa-github"></span>
+        </a>
+      </div>
+      
+      <!--twitter logo -->
+      <div class="col-sm-2">
+        <a href="https://twitter.com/maribeldotduran" target="_blank" class="btn btn-social-icon btn-instagram">
+          <span class="fa fa-twitter"></span>
+        </a>
+      </div>
+    </div>
+    <!--end row -->
+  </div><!-- end  contact section -->
+
+  <!-- footer section -->
+  <!-- Want a top arrow that will send you back to the top of the page-->
+  <footer class="navbar-default text-center">
+    <div>
+      Coded by <a href="https://www.linkedin.com/in/maribel-duran-1766a773" target="_blank">Maribel Duran</a>
+    </div>
+  </footer>
+ </div> <!-- end container-fluid -->
+</body>
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+<script src="js/index.js"></script>
+</html>
