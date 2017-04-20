@@ -60,26 +60,32 @@ p {
   overflow: hidden;
 }
 
+#cover-name{
+  /*Padding: Controls the amount of space the element and its border*/
+  color: white;
+  margin-top: 25%;
+ /* padding-bottom: 350px;*/
+  font-size: 70px;
+}
+
 .arrow {
- /*background-color: black;*/
+  position: absolute;
+  bottom: 0;
+  display: block;
+  left: 50%;
+  margin-left: -25px;
+
 }
 
 .arrow .btn {
   color: white;
-  font-size: 50px;
+  font-size: 35px;
 }
 
 .section{
   padding-top: 70px;
   padding-bottom: 70px;
   background-color: white;
-}
-
-#cover-name{
-  /*Padding: Controls the amount of space the element and its border*/
-  color: white;
-  padding-bottom: 350px;
-  font-size: 80px;
 }
 
 h2{
