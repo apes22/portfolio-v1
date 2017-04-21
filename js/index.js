@@ -6,6 +6,17 @@ $(document).ready(function(){
     $("h1").addClass("animated bounceInDown"); 
 });
 
+//create a jquery function that will change scroll down arrow to 'SCROLL DOWN' 
+//text when the mouse isover the arrow.
+$(document).ready(function(){
+	$('#arrow').on('hover',function (e) {
+	    //e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);	    
+	});
+});
+
 /*Used to close responsive navbar automatically. When this jquery event method is not applied, you have to manually close it after opening. Does not work for submenus.*/
 $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
@@ -27,4 +38,11 @@ $(document).ready(function(){
 	});
 });
 
-//create a jquery function that will change scroll down arrow to 'SCROLL DOWN' text when the mouse isover the arrow.
+function updateNavColor(){
+	if (document.body.scrollTop > 75){
+		$('.navbar').css("background-color", "white");
+	}
+	else{
+		$('.navbar').css("background-color", "transparent");
+	}
+}

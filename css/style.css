@@ -74,12 +74,21 @@ p {
   display: block;
   left: 50%;
   margin-left: -25px;
+  /*margin-left: -75px;*/
+  width: 100px;
 
 }
+
+.arrow >span{
+  visibility: hidden;
+ 
+}
+
 
 .arrow .btn {
   color: white;
   font-size: 35px;
+  position: relative;
 }
 
 .section{
@@ -171,8 +180,13 @@ footer {
   #about p{
   text-align: justify;
   }
+
+  #cover-name{
+   /*  margin-top: 50%;*/
+  }
    
   .project-details{
   text-align: center;
   }s
+  }
 }
