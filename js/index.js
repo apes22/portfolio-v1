@@ -22,6 +22,19 @@ $('.navbar-collapse a').click(function(){
     $(".navbar-collapse").collapse('hide');
 });
 
+var view = {
+	setUpEventListeners: function(){
+		window.addEventListener("scroll", function(){
+			if (document.body.scrollTop > 75){
+				$('.navbar').css("background-color", "white");
+			}
+			else{
+				$('.navbar').css("background-color", "transparent");
+			}
+    	});
+	}
+}
+
 //Performs a smooth page scroll to an anchor on the same page.
 $(document).ready(function(){
 	$('a[href^="#"]').on('click',function (e) {
@@ -46,3 +59,5 @@ function updateNavColor(){
 		$('.navbar').css("background-color", "transparent");
 	}
 }
+
+view.setUpEventListeners();

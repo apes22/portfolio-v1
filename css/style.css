@@ -38,6 +38,8 @@ p {
 .active {
   background-color: white;
   text-decoration: underline;
+  
+
 }
 
 .navbar-header  a {
@@ -54,7 +56,6 @@ p {
   height: 100vh;
   /*padding-top: 200px;*/
   background-image: url(../images/glassesInDesk.jpg);
-  
  /*
   background-image: url(https://images.unsplash.com/photo-1415394171664-b29caa4dca77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=573e0c5f7ecd48c7dd642885a880b41f);
   background-image: url(   https://images.unsplash.com/photo-1452711932549-e7ea7f129399?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58b1e18ecae2804d6f2df344530bdaf6);
@@ -92,7 +93,6 @@ p {
  
 }
 
-
 .arrow .btn {
   color: white;
   font-size: 35px;
@@ -121,12 +121,13 @@ h4{
 }
 
 .section-content{
-  width: 100%;
   max-width: 1100px;
+ width: 100%;
   margin: auto;
+
 }
 #projects {
-/* background-color:  #bfbfbf;*/
+background-color:  #f6f6f6
   /*background-color: #D3D3D3;*/
   /* z-index: 1003; */
 }
@@ -137,7 +138,7 @@ h4{
 
 #projects > #subheader{
   margin-bottom: 70px;
-   font-size: 22px;
+  font-size: 22px;
   color: #337ab7;
 }
 
@@ -153,17 +154,18 @@ h4{
 
 
 #project-list{
-  /*border-style: solid;
+  /*
+  border-style: solid;
   border-width: thin;
   */
-  padding-top: 10px;
+    padding-top: 10px;
   list-style: none;
   padding-left: 0 !important;
   display: flex !important;
   /*display: -webkit-flex;*/
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .single-card{
@@ -189,6 +191,8 @@ h4{
 .card-img_src{
    max-width: 100%;
    height: 100%;
+   border-radius: 5px 5px 0 0;
+
   
 }
 
