@@ -14,21 +14,24 @@ p {
 }
 
 .container-fluid{
-   margin: auto;
-    width: 100% !important;
-    /*padding-left: 0;
-     padding-right: 0;
-     */
+  margin: auto;
+  width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
+     
 }
 
 .navbar {
   /*eliminate white space under bootstrap's nav bar*/
-  /*background-color: white;*/
   background-color: transparent;
   font-size: 16px;
   font-weight: 500;
   padding: 10px;
-  border-bottom: 2px solid #cccccc;
+  /*border-bottom: 2px solid #cccccc;*/
+}
+
+.navbar-brand, .navbar-right a{
+  color: white;
 }
 
 #myNavbar a:visited {
@@ -38,8 +41,6 @@ p {
 .active {
   background-color: white;
   text-decoration: underline;
-  
-
 }
 
 .navbar-header  a {
@@ -90,7 +91,6 @@ p {
 
 .arrow >span{
   visibility: hidden;
- 
 }
 
 .arrow .btn {
@@ -122,12 +122,12 @@ h4{
 
 .section-content{
   max-width: 1100px;
- width: 100%;
+  width: 100%;
   margin: auto;
-
 }
+
 #projects {
-background-color:  #f6f6f6
+  background-color:  #f6f6f6
   /*background-color: #D3D3D3;*/
   /* z-index: 1003; */
 }
@@ -142,7 +142,6 @@ background-color:  #f6f6f6
   color: #337ab7;
 }
 
-
 #projects a{
     color: black;
 }
@@ -151,7 +150,6 @@ background-color:  #f6f6f6
    color: #337ab7;
    text-decoration: none;
 }
-
 
 #project-list{
   /*
@@ -183,7 +181,6 @@ background-color:  #f6f6f6
   background-color: white;
 }
 
-
 .card-img{
     height: 50%;
 }
@@ -191,9 +188,7 @@ background-color:  #f6f6f6
 .card-img_src{
    max-width: 100%;
    height: 100%;
-   border-radius: 5px 5px 0 0;
-
-  
+   border-radius: 5px 5px 0 0;  
 }
 
 .blue-divider{
@@ -250,8 +245,12 @@ footer {
   /*background-color: #EEE;*/
 }
 
-@media only all and (max-width: 1000px) {
-  /*375px is current width of about-me-pic. Adjust when changing image. Wonder if I could have used responsive boostrap for this.*/
+@media only screen and (max-width: 1100px) {
+
+  #project-list{
+   justify-content: space-around !important;
+}
+
   .aboutme-pic-holder{
      width: 375px;
      margin: auto;
@@ -262,10 +261,34 @@ footer {
   }
 
   #cover-name{
-   /*  margin-top: 50%;*/
+   /*margin-top: 50%;*/
   }
    
   .project-details{
   text-align: center;
     }
   }
+}
+
+@media only screen and (max-width: 550px) { 
+}
+/*@media only all and (max-width: 1000px) {
+  //375px is current width of about-me-pic. Adjust when changing image. Wonder if I could have used responsive boostrap for this.
+  .aboutme-pic-holder{
+     width: 375px;
+     margin: auto;
+  }
+  
+  #about p{
+  text-align: justify;
+  }
+
+  #cover-name{
+   // margin-top: 50%;
+  }
+   
+  .project-details{
+  text-align: center;
+    }
+  }
+  */

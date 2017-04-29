@@ -27,9 +27,17 @@ var view = {
 		window.addEventListener("scroll", function(){
 			if (document.body.scrollTop > 75){
 				$('.navbar').css("background-color", "white");
+				$('.navbar').css("border-bottom", "2px solid #cccccc");
+				
+				$('.navbar-nav>li>a').css("color", "#337ab7");
+				$('.navbar-brand').css("color", "#337ab7");
 			}
 			else{
 				$('.navbar').css("background-color", "transparent");
+				$('.navbar').css("border-bottom", "none");
+
+				$('.navbar-nav>li>a').css("color", "white");
+				$('.navbar-brand').css("color", "white");
 			}
     	});
 	}
