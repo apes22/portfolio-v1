@@ -56,7 +56,7 @@ p {
   max-width: 100%;
   height: 100vh;
   /*padding-top: 200px;*/
-  //background-image: url(../images/glassesInDesk.jpg);
+  background-image: url(../images/glassesInDesk.jpg);
  /*
   background-image: url(https://images.unsplash.com/photo-1415394171664-b29caa4dca77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=573e0c5f7ecd48c7dd642885a880b41f);
   background-image: url(   https://images.unsplash.com/photo-1452711932549-e7ea7f129399?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58b1e18ecae2804d6f2df344530bdaf6);
@@ -144,12 +144,10 @@ h4{
 
 #projects a{
     color: black;
+    text-decoration: none;
 }
 
-#projects a:hover{
-   color: #337ab7;
-   text-decoration: none;
-}
+
 
 #project-list{
   /*
@@ -179,7 +177,6 @@ h4{
   box-shadow: 0 12px 12px 0 #D3D3D3;
   box-sizing: border-box;
   background-color: white;
-   overflow: hidden;
 }
 
 .card-img{
@@ -204,6 +201,16 @@ h4{
     transform: scale(1.18); 
 }
 
+.card-info{
+  padding: 20px;
+ }
+
+.single-card:hover .card-name{
+   color: #337ab7;
+   text-decoration: none;
+}
+
+
 .blue-divider{
   width: 100%;
   height: 6px;
@@ -226,13 +233,7 @@ h4{
   height: 50%;
  }
 
- .card-info{
-  padding: 20px;
- }
-
-
-
-
+ 
 .row {
  /*background-color: green;*/
   margin-bottom: 50px;
