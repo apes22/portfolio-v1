@@ -56,7 +56,7 @@ p {
   max-width: 100%;
   height: 100vh;
   /*padding-top: 200px;*/
-  background-image: url(../images/glassesInDesk.jpg);
+  //background-image: url(../images/glassesInDesk.jpg);
  /*
   background-image: url(https://images.unsplash.com/photo-1415394171664-b29caa4dca77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=573e0c5f7ecd48c7dd642885a880b41f);
   background-image: url(   https://images.unsplash.com/photo-1452711932549-e7ea7f129399?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58b1e18ecae2804d6f2df344530bdaf6);
@@ -176,19 +176,32 @@ h4{
   border-color: rgba(51, 122, 183, 0.10);
   border-width: thin;
   border-radius: 5px;
-  box-shadow: 0 10px 10px 0 #D3D3D3;
+  box-shadow: 0 12px 12px 0 #D3D3D3;
   box-sizing: border-box;
   background-color: white;
+   overflow: hidden;
 }
 
 .card-img{
     height: 50%;
+     overflow: hidden;
 }
 
 .card-img_src{
-   max-width: 100%;
-   height: 100%;
-   border-radius: 5px 5px 0 0;  
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0 0; 
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease; 
+}
+
+
+.single-card:hover .card-img_src{
+    transform: scale(1.18); 
 }
 
 .blue-divider{
@@ -216,6 +229,8 @@ h4{
  .card-info{
   padding: 20px;
  }
+
+
 
 
 .row {
