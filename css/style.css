@@ -59,12 +59,12 @@ p {
 
 /* Using bootstrap's navbar default blue color: #337ab7 */
 .icon-bar{
-  background-color: #337ab7;
+  background-color: white;
 }
 
 #cover {
   max-width: 100%;
-  height: 100vh;
+  height: 90vh;
   /*padding-top: 200px;*/
   background-image: url(../images/glassesInDesk.jpg);
  /*

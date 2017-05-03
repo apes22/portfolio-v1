@@ -26,11 +26,13 @@ var view = {
 	setUpEventListeners: function(){
 		window.addEventListener("scroll", function(){
 			if (document.body.scrollTop > 75){
+
 				$('.navbar').css("background-color", "white");
 				$('.navbar').css("border-bottom", "2px solid #cccccc");
 				
 				$('.navbar-nav>li>a').css("color", "#337ab7");
 				$('.navbar-brand').css("color", "#337ab7");
+				$('.icon-bar').css("background-color", "#337ab7");
 			}
 			else{
 				$('.navbar').css("background-color", "transparent");
@@ -38,10 +40,11 @@ var view = {
 
 				$('.navbar-nav>li>a').css("color", "white");
 				$('.navbar-brand').css("color", "white");
+				$('.icon-bar').css("background-color", "white");
 			}
     	});
-	}
 }
+};
 
 //Performs a smooth page scroll to an anchor on the same page.
 $(document).ready(function(){
