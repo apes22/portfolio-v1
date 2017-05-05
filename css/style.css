@@ -149,6 +149,10 @@ h4{
   margin: auto;
 }
 
+.row{
+  background-color: blue;
+}
+
 #projects {
   background-color:  #f6f6f6
   /*background-color: #D3D3D3;*/
@@ -171,7 +175,7 @@ h4{
 }
 
 .row{
-  margin: 0;
+  margin: auto;
 }
 
 
