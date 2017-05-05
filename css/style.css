@@ -6,11 +6,15 @@ body {
    /* to keep footer at bottom of page*/
    padding:0;
    height:100%;
+   line-height: 2em;
+    letter-spacing: .01em;
 }
 
 p {
   font-family: 'Fanwood Text', serif;
   font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .container-fluid{
@@ -117,8 +121,6 @@ p {
    transform: scale(1.20); 
 }
 
-
-
 .section{
   padding-top: 70px;
   padding-bottom: 70px;
@@ -140,10 +142,12 @@ h4{
    font-size: 30px;
 }
 
+
+
 .section-content{
   max-width: 1100px;
   width: 100%;
-  margin: auto;
+ margin: auto;
 }
 
 #projects {
@@ -167,6 +171,10 @@ h4{
     text-decoration: none;
 }
 
+.row{
+	padding-right: 20px;
+	padding-left: 20px;
+}
 
 
 #project-list{
@@ -256,11 +264,6 @@ h4{
  }
 
  
-.row {
- /*background-color: green;*/
-  margin-bottom: 50px;
-}
-
 /* Using bootstrap's navbar default blue color: #337ab7 */
 #contact a:visited { 
     color: #337ab7;
@@ -283,28 +286,18 @@ footer {
   /*background-color: #EEE;*/
 }
 
-@media only screen and (max-width: 1100px) {
-
-  .aboutme-pic-holder{
-     width: 375px;
-     margin: auto;
-  }
+@media only screen and (max-width: 750px) {
   
   #about p{
   text-align: justify;
   }
 
   #cover-name{
-   /*margin-top: 50%;*/
-  }
-   
-  .project-details{
-  text-align: center;
-    }
+   margin-top: 50%
   }
 }
 
-@media only screen and (max-width: 550px) { 
+@media only screen and (max-width: 767px) { 
 }
 /*@media only all and (max-width: 1000px) {
   //375px is current width of about-me-pic. Adjust when changing image. Wonder if I could have used responsive boostrap for this.
