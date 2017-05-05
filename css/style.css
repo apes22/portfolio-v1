@@ -143,11 +143,10 @@ h4{
 }
 
 
-
 .section-content{
-  max-width: 1100px;
   width: 100%;
- margin: auto;
+  max-width: 1100px;
+  margin: auto;
 }
 
 #projects {
@@ -172,14 +171,13 @@ h4{
 }
 
 .row{
-	padding-right: 20px;
-	padding-left: 20px;
+  margin: 0;
 }
 
 
 #project-list{
-  /*
-  border-style: solid;
+  
+  /*border-style: solid;
   border-width: thin;
   */
     padding-top: 10px;
@@ -248,21 +246,6 @@ h4{
   margin-top: 0;
 }
 
-.card-overlay{
-  background: #7d5bbe;
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border-bottom-style: solid;
-  border-bottom-width: thin;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  width: 100%;
-  height: 50%;
- }
-
  
 /* Using bootstrap's navbar default blue color: #337ab7 */
 #contact a:visited { 
@@ -286,11 +269,12 @@ footer {
   /*background-color: #EEE;*/
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 550px) {
   
-  #about p{
-  text-align: justify;
+  #cover{
+    background-image: url(../images/glassesInDesk_Xs.jpeg);
   }
+
 
   #cover-name{
    margin-top: 50%
