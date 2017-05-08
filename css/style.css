@@ -88,6 +88,7 @@ h4{
   max-width: 100%;
   height: 100vh;
   /*padding-top: 200px;*/
+  
   background-image: url(../images/glassesInDesk.jpg);
  /*
   background-image: url(https://images.unsplash.com/photo-1415394171664-b29caa4dca77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=573e0c5f7ecd48c7dd642885a880b41f);
@@ -98,9 +99,9 @@ h4{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  -webkit-background-size: 100%; 
-  background-color: #cccccc;
-  vertical-align: middle;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   overflow: hidden;
 }
 
@@ -263,7 +264,7 @@ footer {
 
 @media only screen and (max-width: 550px) {
   #cover{
-    background-image: url(../images/glassesInDesk_Xs.jpeg);
+    /*background-image: url(../images/glassesInDesk_Xs.jpeg);*/
   }
 
   #cover-name{
