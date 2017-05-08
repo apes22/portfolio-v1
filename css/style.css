@@ -2,20 +2,19 @@ body {
    width:100%;
    font-family: 'Ovo', serif;
    margin: 0;
+   background-color: white;
    /* to keep footer at bottom of page*/
    padding:0;
    height:100%;
    line-height: 2em;
-    letter-spacing: .01em;
+   letter-spacing: .01em;
 }
-
 
 .container-fluid{
   margin: auto;
   width: 100% !important;
   padding-left: 0;
   padding-right: 0;    
-
    /* to keep footer at bottom of page*/
   position:relative;
   min-height:100%;
@@ -43,6 +42,9 @@ h4{
    font-size: 28px;
 }
 
+.card{
+  font-size: 22px;
+}
 
 .navbar {
   background-color: transparent;
@@ -84,7 +86,7 @@ h4{
 
 #cover {
   max-width: 100%;
-  height: 90vh;
+  height: 100vh;
   /*padding-top: 200px;*/
   background-image: url(../images/glassesInDesk.jpg);
  /*
@@ -114,15 +116,14 @@ h4{
   display: block;
   left: 50%;
   margin-left: -50px;
-  /*margin-left: -75px;*/
   width: 100px;
   box-sizing: border-box;
 
+  transition: all 0.5s ease; 
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
-  transition: all 0.5s ease; 
+  -ms-transition: all 0.5s ease; 
 }
 
 .arrow .btn{
@@ -139,15 +140,8 @@ h4{
 .section{
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: white;
   margin: auto;
 }
-.row{
-  margin: auto;
-}
-
-
-
 
 .section-content{
   width: 100%;
@@ -155,6 +149,9 @@ h4{
   margin: auto;
 }
 
+.row{
+  margin: auto;
+}
 
 #projects {
   background-color:  #f6f6f6
@@ -176,14 +173,12 @@ h4{
     text-decoration: none;
 }
 
-
 #project-list{
- 
-    padding-top: 10px;
+  padding-top: 10px;
   list-style: none;
   padding-left: 0 !important;
   display: flex !important;
-  /*display: -webkit-flex;*/
+  display: -webkit-flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -206,7 +201,7 @@ h4{
 
 .card-img{
     height: 50%;
-     overflow: hidden;  
+    overflow: hidden;  
 }
 
 .card-img_src{
@@ -214,22 +209,19 @@ h4{
   height: 100%;
   border-radius: 5px 5px 0 0; 
 
+   transition: all 1s ease;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
-  transition: all 1s ease;
 }
 
-
 .single-card:hover .card-img_src{
-  
-    transform: scale(1.18);
-    border-radius: 5px 5px 0 0;  
+    transform: scale(1.18);  
 }
 
 .card-info{
-  padding: 20px;
+  padding: 15px;
  }
 
 .single-card:hover .card-name{
@@ -237,17 +229,13 @@ h4{
    text-decoration: none;
 }
 
-
 .blue-divider{
   width: 100%;
   height: 6px;
   background-color: #337ab7;
-  margin-top: 0;
 }
 
- 
-/* Using bootstrap's navbar default blue color: #337ab7 */
-#contact a:visited { 
+#contact a:visited{
     color: #337ab7;
 }
 
@@ -256,8 +244,9 @@ h4{
 }
 
 .btn-social-icon{
-  font-size: 50px;
+  font-size: 40px;
 }
+
 
 footer {
   font-size: 16px;
@@ -272,17 +261,10 @@ footer {
   color: white;
 }
 
-.navbar-default{
-   background-color: gray;
-  /*background-color: #EEE;*/
-}
-
 @media only screen and (max-width: 550px) {
-  
   #cover{
     background-image: url(../images/glassesInDesk_Xs.jpeg);
   }
-
 
   #cover-name{
    margin-top: 50%
