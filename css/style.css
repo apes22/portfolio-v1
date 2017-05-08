@@ -95,14 +95,24 @@ h4{
   background-image: url(   https://images.unsplash.com/photo-1452711932549-e7ea7f129399?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58b1e18ecae2804d6f2df344530bdaf6);
    background-image: url(https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a9c79afe3d7a158a876502b1cc548332);
    */
+
+   /* Image is centered vertically and horizontally at all times */
   background-position: center center;
+
+  /* Image doesn't repeat */
   background-repeat: no-repeat;
+  /* Makes the image fixed in the viewpoint so that it doesn't move when 
+ the content height is greater than the image height */
   background-attachment: fixed;
+  /* This is what makes the background image 
+ rescale based on itscontainer's size */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   overflow: hidden;
+  /* Pick a solid background color that will
+be displayed while the background image is loading */
    background-color: white;
 }
 
@@ -265,7 +275,7 @@ footer {
 
 @media only screen and (max-width: 550px) {
   #cover{
-    background-attachment: scroll;
+   
     /*background-image: url(../images/glassesInDesk_Xs.jpeg);*/
   }
 
