@@ -276,6 +276,7 @@ footer {
 @media only screen and (max-width: 550px) {
   #cover{
     background-attachment: scroll;
+    background-size: contain;
     /*background-image: url(../images/glassesInDesk_Xs.jpeg);*/
   }
 
