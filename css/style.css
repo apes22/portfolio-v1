@@ -8,6 +8,7 @@ body {
    height:100vh;
    line-height: 2em;
    letter-spacing: .01em;
+
 }
 
 .container-fluid{
@@ -88,13 +89,14 @@ h4{
   width: 100%;
   height: 100vh;
   /*padding-top: 200px;*/
+  /*
+  backg
   
-  background-image: url(../images/glassesInDesk.jpg);
- /*
   background-image: url(https://images.unsplash.com/photo-1415394171664-b29caa4dca77?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=573e0c5f7ecd48c7dd642885a880b41f);
-  background-image: url(   https://images.unsplash.com/photo-1452711932549-e7ea7f129399?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58b1e18ecae2804d6f2df344530bdaf6);
    background-image: url(https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a9c79afe3d7a158a876502b1cc548332);
-   */
+  
+  */
+  background-image: url(   https://images.unsplash.com/photo-1452711932549-e7ea7f129399?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58b1e18ecae2804d6f2df344530bdaf6);
 
    /* Image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -153,6 +155,8 @@ be displayed while the background image is loading */
   padding-top: 70px;
   padding-bottom: 70px;
   margin: auto;
+   padding-right: 40px;
+  padding-left: 40px;
 }
 
 .section-content{
@@ -259,7 +263,6 @@ be displayed while the background image is loading */
   font-size: 40px;
 }
 
-
 footer {
   font-size: 16px;
   width:100%;
@@ -276,13 +279,20 @@ footer {
 @media only screen and (max-width: 550px) {
   #cover{
     background-attachment: scroll;
-    background-size: contain;
+    /*background-size: contain;
     /*background-image: url(../images/glassesInDesk_Xs.jpeg);*/
   }
 
   #cover-name{
    margin-top: 50%
   }
+
+  #aboutme-pic-src{
+   
+  
+
+  }
+
 }
 
 @media only screen and (max-width: 767px) { 
@@ -290,4 +300,9 @@ footer {
     background-attachment: scroll;
     /*background-image: url(../images/glassesInDesk_Xs.jpeg);*/
   }
+
+  #aboutme-pic-src{
+  }
+
+  
 }
