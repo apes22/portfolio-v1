@@ -6,9 +6,6 @@ body {
    /* to keep footer at bottom of page*/
    padding:0;
    height:100vh;
-   line-height: 2em;
-   letter-spacing: .01em;
-
 }
 
 .container-fluid{
@@ -27,7 +24,11 @@ p {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 20px;
+  /*line-height: 2em;
+  letter-spacing: .01em;
+  */
 }
+
 
 h2{
  margin-bottom: 70px;
@@ -124,8 +125,7 @@ be displayed while the background image is loading */
   left: 50%;
   margin-left: -50px;
   width: 100px;
-  box-sizing: border-box;
-
+  box-sizing: border-box
   transition: all 0.5s ease; 
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -148,8 +148,8 @@ be displayed while the background image is loading */
   padding-top: 70px;
   padding-bottom: 70px;
   margin: auto;
-   padding-right: 40px;
-  padding-left: 40px;
+   padding-right: 30px;
+  padding-left: 30px;
 }
 
 .section-content{
@@ -194,8 +194,8 @@ be displayed while the background image is loading */
 }
 
 .single-card{
-  width: 320px;
-  height: 415px;
+  width: 340px;
+  height: 420px;
   display: block;
   margin-bottom: 40px;
   text-align: left;
@@ -231,6 +231,11 @@ be displayed while the background image is loading */
 
 .card-info{
   padding: 15px;
+ }
+
+ .card-info > p{
+  font-size: 14px;
+
  }
 
 .single-card:hover .card-name{
