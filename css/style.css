@@ -125,7 +125,7 @@ be displayed while the background image is loading */
   left: 50%;
   margin-left: -50px;
   width: 100px;
-  box-sizing: border-box
+  box-sizing: border-box;
   transition: all 0.5s ease; 
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -148,8 +148,7 @@ be displayed while the background image is loading */
   padding-top: 70px;
   padding-bottom: 70px;
   margin: auto;
-   padding-right: 30px;
-  padding-left: 30px;
+   
 }
 
 .section-content{
@@ -195,7 +194,7 @@ be displayed while the background image is loading */
 
 .single-card{
   width: 340px;
-  height: 420px;
+  min-height: 420px;
   display: block;
   margin-bottom: 40px;
   text-align: left;
@@ -231,6 +230,7 @@ be displayed while the background image is loading */
 
 .card-info{
   padding: 15px;
+
  }
 
  .card-info > p{
@@ -281,13 +281,22 @@ footer {
   #cover-name{
    margin-top: 50%
   }
+
+    .section{
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+  }
 }
 
 @media only screen and (max-width: 767px) { 
   #cover{
     background-attachment: scroll;
+
   }
-  #aboutme-pic-src{
+
+  .section{
+      padding-right: 100px;
+      padding-left: 100px;
   }
 
   
