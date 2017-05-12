@@ -5,7 +5,7 @@ body {
    background-color: white;
    /* to keep footer at bottom of page*/
    padding:0;
-   height:100vh;
+   height:100%;
 }
 
 .container-fluid{
@@ -27,13 +27,11 @@ p {
 /*  line-height: 2em;
   */
   letter-spacing: .01em;
-  
 }
-
 
 h2{
  margin-bottom: 70px;
-  font-size: 40px;  
+ font-size: 40px;  
 }
 
 h3{
@@ -145,13 +143,15 @@ be displayed while the background image is loading */
 .section{
   padding-top: 70px;
   padding-bottom: 70px;
-  margin: auto;  
 }
 
 .section-content{
   width: 100%;
   max-width: 1100px;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  
 }
 
 .row{
@@ -159,7 +159,8 @@ be displayed while the background image is loading */
 }
 
 #projects {
-  background-color:  #f6f6f6
+  background-color:  #f6f6f6;
+  
 }
 
 #projects > h2{
@@ -167,9 +168,8 @@ be displayed while the background image is loading */
 }
 
 /* Using bootstrap's navbar default blue color: #337ab7 */
-#projects > .subheader{
+.subheader{
   margin-bottom: 70px;
-  
   /*color: #337ab7;*/
 }
 
@@ -181,7 +181,6 @@ be displayed while the background image is loading */
 #project-list{
   padding-top: 10px;
   list-style: none;
-  padding-left: 0 !important;
   display: flex !important;
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
@@ -190,7 +189,7 @@ be displayed while the background image is loading */
 }
 
 .single-card{
-  width: 340px;
+  width: 320px;
   min-height: 420px;
   display: block;
   margin-bottom: 40px;
@@ -227,7 +226,6 @@ be displayed while the background image is loading */
 
 .card-info{
   padding: 15px;
-
  }
 
  .card-info > p{
@@ -279,10 +277,7 @@ footer {
    margin-top: 50%
   }
 
-    .section{
-      padding-right: 10px !important;
-      padding-left: 10px !important;
-  }
+  
 }
 
 @media only screen and (max-width: 767px) { 
@@ -291,9 +286,8 @@ footer {
 
   }
 
-  .section{
-      padding-right: 100px;
-      padding-left: 100px;
+  .section-content{
+   
   }
 
   
