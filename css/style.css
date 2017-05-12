@@ -24,9 +24,10 @@ p {
   font-size: 16px;
   margin-top: 10px;
   margin-bottom: 20px;
-  /*line-height: 2em;
-  letter-spacing: .01em;
+/*  line-height: 2em;
   */
+  letter-spacing: .01em;
+  
 }
 
 
@@ -147,8 +148,7 @@ be displayed while the background image is loading */
 .section{
   padding-top: 70px;
   padding-bottom: 70px;
-  margin: auto;
-   
+  margin: auto;  
 }
 
 .section-content{
@@ -170,10 +170,10 @@ be displayed while the background image is loading */
 }
 
 /* Using bootstrap's navbar default blue color: #337ab7 */
-#projects > #subheader{
+#projects > .subheader{
   margin-bottom: 70px;
-  font-size: 22px;
-  color: #337ab7;
+  
+  /*color: #337ab7;*/
 }
 
 #projects a{
