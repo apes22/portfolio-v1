@@ -27,11 +27,13 @@ p {
 /*  line-height: 2em;
   */
   letter-spacing: .01em;
+  
 }
+
 
 h2{
  margin-bottom: 70px;
- font-size: 40px;  
+  font-size: 40px;  
 }
 
 h3{
@@ -88,9 +90,12 @@ h4{
 #cover {
   width: 100%;
   height: 100vh;
-  background-image: url(../images/AirBalloon.jpeg);  
+ /*background-image: url(https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=a9c79afe3d7a158a876502b1cc548332);
+  */background-image: url(   https://images.unsplash.com/photo-1452711932549-e7ea7f129399?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=58b1e18ecae2804d6f2df344530bdaf6);
+
    /* Image is centered vertically and horizontally at all times */
-  background-position: center;
+  background-position: center center;
+
   /* Image doesn't repeat */
   background-repeat: no-repeat;
   /* Makes the image fixed in the viewpoint so that it doesn't move when 
@@ -106,7 +111,6 @@ h4{
   /* Pick a solid background color that will
 be displayed while the background image is loading */
    background-color: white;
-   position:relative;
 }
 
 #cover-name{
@@ -115,14 +119,13 @@ be displayed while the background image is loading */
   font-size: 70px;
 }
 
-.arrow{
+.arrow {
   position: absolute;
   bottom: 0;
   display: block;
   left: 50%;
   margin-left: -50px;
   width: 100px;
-  z-index: 1;
   box-sizing: border-box;
   transition: all 0.5s ease; 
   -webkit-transition: all 0.5s ease;
@@ -145,15 +148,13 @@ be displayed while the background image is loading */
 .section{
   padding-top: 70px;
   padding-bottom: 70px;
+  margin: auto;  
 }
 
 .section-content{
   width: 100%;
   max-width: 1100px;
   margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  
 }
 
 .row{
@@ -161,8 +162,7 @@ be displayed while the background image is loading */
 }
 
 #projects {
-  background-color:  #f6f6f6;
-  
+  background-color:  #f6f6f6
 }
 
 #projects > h2{
@@ -170,8 +170,9 @@ be displayed while the background image is loading */
 }
 
 /* Using bootstrap's navbar default blue color: #337ab7 */
-.subheader{
+#projects > .subheader{
   margin-bottom: 70px;
+  
   /*color: #337ab7;*/
 }
 
@@ -183,6 +184,7 @@ be displayed while the background image is loading */
 #project-list{
   padding-top: 10px;
   list-style: none;
+  padding-left: 0 !important;
   display: flex !important;
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
@@ -191,7 +193,7 @@ be displayed while the background image is loading */
 }
 
 .single-card{
-  width: 320px;
+  width: 340px;
   min-height: 420px;
   display: block;
   margin-bottom: 40px;
@@ -228,6 +230,7 @@ be displayed while the background image is loading */
 
 .card-info{
   padding: 15px;
+
  }
 
  .card-info > p{
@@ -272,16 +275,29 @@ footer {
 }
 
 @media only screen and (max-width: 550px) {
+  #cover{
+    background-attachment: scroll;
+  }
   #cover-name{
    margin-top: 50%
   }
 
-  
+    .section{
+      padding-right: 10px !important;
+      padding-left: 10px !important;
+  }
 }
 
 @media only screen and (max-width: 767px) { 
   #cover{
     background-attachment: scroll;
 
-  }  
+  }
+
+  .section{
+      padding-right: 100px;
+      padding-left: 100px;
+  }
+
+  
 }
