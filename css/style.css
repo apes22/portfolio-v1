@@ -106,12 +106,15 @@ h4{
 be displayed while the background image is loading */
    background-color: white;
    position:relative;
+       -webkit-animation-duration: 3s;
 }
 
 #cover-name{
   color: white;
   margin-top: 25%;
   font-size: 70px;
+  font-weight: 500;
+  
 }
 
 #cover > p{
@@ -120,6 +123,7 @@ be displayed while the background image is loading */
  font-weight: 600;
 
 }
+
 
 .arrow{
   position: absolute;
