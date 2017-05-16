@@ -61,7 +61,7 @@ h4{
 .navbar-brand, .navbar-right a{
   color: white;
 }
-
+6 Ways To Make Text Stand Out From A Busy Background in Photoshop
 #myNavbar a:visited {
   background-color: white;
 }
@@ -83,6 +83,9 @@ h4{
 .icon-bar{
   background-color: white;
 }
+
+/*https://designmodo.com/design-type-photo/*/
+
 
 #cover {
   width: 100%;
@@ -107,20 +110,23 @@ be displayed while the background image is loading */
    background-color: white;
    position:relative;
        -webkit-animation-duration: 3s;
+       opacity: 0.2;
+       
 }
 
 #cover-name{
   color: white;
   margin-top: 25%;
   font-size: 70px;
-  font-weight: 500;
-  
+  font-weight:900;
+
+
 }
 
 #cover > p{
   color: white;
   text-align: center;
- font-weight: 600;
+ font-weight: 900;
 
 }
 
