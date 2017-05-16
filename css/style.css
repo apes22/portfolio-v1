@@ -21,7 +21,7 @@ body {
 
 p {
   font-family: 'Fanwood Text', serif;
-  font-size: 16px;
+  font-size: 16px;  
   margin-top: 10px;
   margin-bottom: 20px;
   line-height: 1.5em;
@@ -58,10 +58,27 @@ h4{
   -ms-transition: all 1s ease;
 }
 
+.navbar-border{
+  border-bottom: 2px solid #cccccc;
+}
+
+.white-background{
+  background-color: white;
+}
+
+/* Using bootstrap's navbar default blue color: #337ab7 */
+.bootstrap-blue{
+  color: #337ab7 !important;
+}
+
+.bootstrap-background-color{
+  background-color: #337ab7 !important;
+}
+
 .navbar-brand, .navbar-right a{
   color: white;
 }
-6 Ways To Make Text Stand Out From A Busy Background in Photoshop
+
 #myNavbar a:visited {
   background-color: white;
 }
@@ -85,8 +102,6 @@ h4{
 }
 
 /*https://designmodo.com/design-type-photo/*/
-
-
 #cover {
   width: 100%;
   height: 100vh;
@@ -109,9 +124,7 @@ h4{
 be displayed while the background image is loading */
    background-color: white;
    position:relative;
-       -webkit-animation-duration: 3s;
-       opacity: 0.2;
-       
+  -webkit-animation-duration: 3s;     
 }
 
 #cover-name{
@@ -119,15 +132,12 @@ be displayed while the background image is loading */
   margin-top: 25%;
   font-size: 70px;
   font-weight:900;
-
-
 }
 
 #cover > p{
   color: white;
   text-align: center;
  font-weight: 900;
-
 }
 
 
@@ -141,10 +151,8 @@ be displayed while the background image is loading */
   z-index: 1;
   box-sizing: border-box;
   transition: all 0.5s ease; 
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease; 
+  -webkit-animation-delay: 0.5s;     
+
 }
 
 .arrow .btn{
@@ -169,7 +177,6 @@ be displayed while the background image is loading */
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
-  
 }
 
 .row{
@@ -178,21 +185,16 @@ be displayed while the background image is loading */
 
 #projects {
   background-color:  #f6f6f6;
-  
 }
 
 #projects > h2{
   margin-bottom: 0;
 }
 
-/* Using bootstrap's navbar default blue color: #337ab7 */
-
 #projects .subheader{
   margin-bottom: 70px;
   padding-right: 25%;
   padding-left: 25%;
-  
-  /*color: #337ab7;*/
 }
 
 #projects a{
@@ -208,7 +210,6 @@ be displayed while the background image is loading */
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 
 .single-card{
@@ -236,7 +237,7 @@ be displayed while the background image is loading */
   height: 100%;
   border-radius: 5px 5px 0 0; 
 
-   transition: all 1s ease;
+  transition: all 1s ease;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
@@ -249,14 +250,12 @@ be displayed while the background image is loading */
 
 .card-info{
   padding: 15px;
- }
+}
 
- .card-info > p{
+.card-info > p{
   font-size: 14px;
   line-height: normal;
  }
-
-
 
 .single-card:hover .card-name{
    color: #337ab7;
@@ -303,13 +302,10 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
   }
- 
-  
 }
 
 @media only screen and (max-width: 767px) { 
   #cover{
     background-attachment: scroll;
-
   }  
 }
