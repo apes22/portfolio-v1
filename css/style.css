@@ -24,7 +24,6 @@ body {
 p {
 /* font-family: 'Source Sans Pro', sans-serif;*/
 font-family: 'Open Sans', sans-serif;
-
 font-size: 15px;  
 margin-top: 10px;
 margin-bottom: 20px;
@@ -270,6 +269,10 @@ be displayed while the background image is loading */
     transform: scale(1.18);  
 }
 
+.zoom-in{
+  transform: scale(1.18); 
+}
+
 .card-info{
   padding: 15px;
 }
@@ -318,7 +321,7 @@ footer {
 
 @media only screen and (max-width: 550px) {
   #cover-name{
-   
+   font-size: 70px;
   }
 
   #projects .subheader{
