@@ -2,7 +2,9 @@ var view = {
 	setUpEventListeners: function(){
 		
 		$(window).scroll(function(){
-			if (document.body.scrollTop > 75){
+			//To cover all browsers since Firefox does not support document.body.scrollTop and vice vera for Chrome
+			var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+			if (bodyScrollTop > 75){
 				$('.navbar').addClass('white-background navbar-border');
 				$('.navbar-nav>li>a, .navbar-brand').addClass('bootstrap-blue');
 				$('.icon-bar').addClass('bootstrap-background-color');
