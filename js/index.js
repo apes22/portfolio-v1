@@ -38,3 +38,4 @@ var view = {
 };
 
 view.setUpEventListeners();
+ AOS.init();
