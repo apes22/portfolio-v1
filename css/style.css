@@ -1,3 +1,5 @@
+/*https://michalsnik.github.io/aos/*/
+
 body {
    width:100%;
    /*font-family: 'Ovo', serif;*/
@@ -79,9 +81,8 @@ h4{
 }
 
 
-#myNavbar a:visited {
-  background-color: white;
-
+#myNavbar a:visited, #myNavbar a:link {
+  background-color: transparent;
 }
 
 #myNavbar a:hover {
@@ -206,7 +207,7 @@ be displayed while the background image is loading */
   margin: auto;
 }
 
-#projects {
+#about, #projects{
   background-color:  #f6f6f6;
 }
 
