@@ -207,7 +207,7 @@ be displayed while the background image is loading */
   margin: auto;
 }
 
-#about, #projects{
+#projects{
   background-color:  #f6f6f6;
 }
 
