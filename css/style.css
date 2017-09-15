@@ -1,4 +1,6 @@
 /*https://michalsnik.github.io/aos/*/
+
+/******** STYLE *******/
 body {
    width:100%;
    height:100vh;
@@ -8,17 +10,6 @@ body {
    padding:0;
    background-color: white;
    /* to keep footer at bottom of page*/
-}
-
-.container-fluid{
-  margin: auto;
-  width: 100% !important;
-  padding-left: 0;
-  padding-right: 0;    
-   /* to keep footer at bottom of page*/
-  position:relative;
-  min-height:100%;
-  padding-bottom:220px; /* Height of the footer element */
 }
 
 p {
@@ -43,6 +34,30 @@ h3{
 h4{
    font-size: 26px;
 }
+
+h5{
+   font-size: 20px;
+}
+
+/******** BOOTSTRAP ******/
+
+.container-fluid{
+  margin: auto;
+  width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;    
+   /* to keep footer at bottom of page*/
+  position:relative;
+  min-height:100%;
+  padding-bottom:220px; /* Height of the footer element */
+}
+
+.row{
+  margin: auto;
+}
+
+/********  NAVIGATION *******/
+
 
 .navbar {
   background-color: transparent;
@@ -110,6 +125,8 @@ h4{
 .icon-bar{
   background-color: white;
 }
+
+/******** COVER *******/
 
 /*https://designmodo.com/design-type-photo/*/
 #cover {
@@ -196,6 +213,8 @@ be displayed while the background image is loading */
    transform: scale(1.20); 
 }
 
+/******** SECTION *******/
+
 .section{
   padding-top: 70px;
   padding-bottom: 70px;
@@ -209,9 +228,29 @@ be displayed while the background image is loading */
   padding-right: 10px;
 }
 
-.row{
-  margin: auto;
+/******** ABOUT ME *******/
+
+
+.hobbies{
+   margin: auto;
+   margin-top: 10px;
+   text-align: center;
 }
+
+.hobby-icon{
+ height: 30px;
+ 
+}
+
+.icon{
+  height: 80px;
+  width: 100px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+
+/******** PROJECTS *******/
 
 #projects{
   background-color:  #f6f6f6;
@@ -313,6 +352,8 @@ be displayed while the background image is loading */
   background-color: #337ab7;
 }
 
+/******** CONTACT  *******/
+
 #contact a:visited{
     color: #337ab7;
 }
@@ -324,6 +365,8 @@ be displayed while the background image is loading */
 .btn-social-icon{
   font-size: 40px;
 }
+
+/******** FOOTER *******/
 
 footer {
   font-size: 16px;
