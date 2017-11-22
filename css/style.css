@@ -249,6 +249,24 @@ be displayed while the background image is loading */
   margin-top: 10px;
 }
 
+.box{
+  padding: 15px;
+  margin-bottom: 40px;
+  border-style: solid;
+  border-color: rgba(51, 122, 183, 0.10);
+  border-width: thin;
+  border-radius: 5px;
+  box-shadow: 0 12px 12px 0 #D3D3D3;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.box h5{
+  font-weight: 500px;
+  
+  border-bottom: 2px solid #0a0a0a
+}
+
 
 /******** PROJECTS *******/
 
@@ -281,7 +299,7 @@ be displayed while the background image is loading */
   display: flex !important;
   display: -webkit-flex;
   -webkit-flex-wrap: wrap;
-  display: -webkit-inline-flex
+  display: -webkit-inline-flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -402,4 +420,86 @@ footer {
   border-bottom: solid;
   margin-top: -10px;
  }
+}
+
+/* ----------CAROUSEL----------*/
+#myCarousel{
+  margin: auto;
+  position: relative;
+  height: 80vh;
+  width: 80%;
+}
+
+.background{
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-color: white;
+   background-position: center center;
+   background-color: white !important;
+}
+.carousel-control{
+  background-image: none !important;
+
+}
+
+.first-slide-img{
+  background-image: url(../images/travel/vancouver.jpg);
+}
+
+.second-slide-img{
+  background-image: url(../images/travel/seattle.jpg);
+  background-position: right top;
+}
+
+.third-slide-img{
+  background-image: url(../images/travel/hawaii.jpg);
+}
+
+.fourth-slide-img{
+  background-image: url(../images/travel/miami.jpg);
+}
+
+.fifth-slide-img{
+  background-image: url(../images/travel/london.jpg);
+}
+
+.sixth-slide-img{
+  background-image: url(../images/travel/barcelona.jpg);
+   background-position: center top;
+}
+.seventh-slide-img{
+  background-image: url(../images/travel/morocco.jpg);
+}
+.eight-slide-img{
+  background-image: url(../images/travel/belgium.jpg);
+  background-position: center bottom;
+}
+
+.ninth-slide-img{
+  background-image: url(../images/travel/home.jpg);
+  background-position: center bottom;
+}
+
+.carousel-inner{
+  height: 100%;
+  width: 100%;
+}
+
+.carousel .item {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+
+
+@media only screen and (max-width: 767px) { 
+  .background{
+    background-attachment: scroll;
+  } 
+  #myCarousel{
+    height: 60vh;
 }
