@@ -263,8 +263,11 @@ be displayed while the background image is loading */
 
 .box h5{
   font-weight: 500px;
-  
   border-bottom: 2px solid #0a0a0a
+}
+
+.box p{
+  font-size: 14px;
 }
 
 
