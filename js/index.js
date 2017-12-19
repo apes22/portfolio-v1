@@ -2,7 +2,7 @@ var view = {
   displayProjects(projectType){
     var singleCards = document.getElementsByClassName('single-card');
     const cardsArray = Array.from(singleCards);
-    
+
     cardsArray.forEach(function(card){
       if (!card.classList.contains(projectType)){ 
        card.classList.add("hide");
@@ -51,8 +51,6 @@ var view = {
 		$("#select-project-type").change(function(){
 			var project_type = this.value;
 			view.displayProjects(project_type);
-
-			console.log("We have changed the selection of project type.");
 		});
 	}
 };
