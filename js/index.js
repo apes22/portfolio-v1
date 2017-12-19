@@ -1,4 +1,17 @@
 var view = {
+  displayProjects(projectType){
+    var singleCards = document.getElementsByClassName('single-card');
+    const cardsArray = Array.from(singleCards);
+    
+    cardsArray.forEach(function(card){
+      if (!card.classList.contains(projectType)){ 
+       card.classList.add("hide");
+      }
+      else{
+        card.classList.remove("hide");
+      }
+    });
+  },
 	setUpEventListeners: function(){
 		
 		$(window).scroll(function(){
@@ -33,6 +46,13 @@ var view = {
 	    }, 1000, 'swing', function () {
 	       window.location.hash = target;
 	    });
+		});
+
+		$("#select-project-type").change(function(){
+			var project_type = this.value;
+			view.displayProjects(project_type);
+
+			console.log("We have changed the selection of project type.");
 		});
 	}
 };
