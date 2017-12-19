@@ -139,11 +139,21 @@
   <div id="projects" class="section">
     <h2 class="text-center">PROJECTS</h2>
     <div class="section-content">
-      <p  class="subheader">
-      </p>
+        <div class="form-group">
+          
+        <div class='subheader'>
+            <select id="select-project-type" class="form-control">
+                <option value="front-end" selected>Front End</option>
+                <option value="back-end">Back End</option>
+              </select>
+            </div>
+
+        </div>
+       
         <div id="project-list" >
 
-        <a href="https://www.maribelduran.com/Hacking4Humanity2017/web/index.html" class="single-card" target="_blank" >
+
+        <a href="http://www.maribelduran.com/Hacking4Humanity2017/web/index.html" class="single-card front-end" target="_blank" >
             <div class="card-img">
               <img class="card-img_src center-block" src="images/EmpowerHerSF_cover.png" alt="Screenshot of project" >
             </div>
@@ -154,7 +164,7 @@
           </div>
           </a>
 
-           <a href="https://maribelduran.github.io/tic-tac-toe/" class="single-card" target="_blank" >
+           <a href="https://maribelduran.github.io/tic-tac-toe/" class="single-card front-end" target="_blank" >
             <div class="card-img">
               <img class="card-img_src center-block" src="images/TicTacToe.png" alt="Screenshot of project" >
             </div>
@@ -166,7 +176,7 @@
           </div>
           </a>
 
-            <a href="https://maribelduran.github.io/pomodoro-timer" class="single-card" target="_blank">
+            <a href="https://maribelduran.github.io/pomodoro-timer" class="single-card front-end" target="_blank">
             <div class="card-img">
               <img class="card-img_src center-block" src="images/PomodoroTimer.png" alt="Screenshot of project">
             </div>
@@ -176,7 +186,7 @@
             <p>A countdown clock that switches between a Session Timer and Break Timer. The length of the timers are customizable and can be reset. Built using: Javascript, Jquery, HTML5, CSS3, and Bootstrap. </p>
           </div>
           </a>
-          <a href="https://maribelduran.github.io/javascript-calculator" class="single-card" target="_blank">
+          <a href="https://maribelduran.github.io/javascript-calculator" class="single-card front-end" target="_blank">
             <div class="card-img">
               <img class="card-img_src center-block" src="images/JavascriptCalculator.png" alt="Screenshot of project">
             </div>
@@ -196,7 +206,7 @@
             <p>A browser based version of the 1980s classic Simon Game. Built using Javascript, jQuery, HTML5, and CSS3.</p>
           </div>
           </a>
-           <a href="https://maribelduran.github.io/twitch_streamers" class="single-card" target="_blank">
+           <a href="https://maribelduran.github.io/twitch_streamers" class="single-card front-end" target="_blank">
             <div class="card-img">
               <img class="card-img_src center-block" src="images/Twitch_Streamers.png" alt="Screenshot of project">
             </div>
@@ -206,7 +216,7 @@
             <p>Shows whether a Twitch streamer is online, offline, or no longer active. Uses the Twitch.tv JSON API to get twitch streamers information. Built using Vanilla JS, HTML, and CSS3.</p>
           </div>
           </a>
-           <a href="https://maribelduran.github.io/wikipedia-viewer/" class="single-card" target="_blank">
+           <a href="https://maribelduran.github.io/wikipedia-viewer/" class="single-card front-end" target="_blank">
             <div class="card-img">
               <img class="card-img_src center-block" src="images/WikipediaViewer.png" alt="Screenshot of project">
             </div>
@@ -237,7 +247,7 @@
             <p>Provides random inspirational quotes using Forismatic API. The user can share the quotes on Facebook and Twitter. Built using Javascript, JQuery, HTML, CSS3, and Bootstrap</p>
           </div>
           </a>
-          <a href="https://maribelduran.github.io/tribute-to-steve-jobs/." class="single-card" target="_blank">
+          <a href="https://maribelduran.github.io/tribute-to-steve-jobs" class="single-card" target="_blank">
             <div class="card-img">
               <img class="card-img_src center-block" src="images/TributePage.png" alt="Screenshot of project">
             </div>
@@ -246,6 +256,40 @@
             <h4 class="card-name">Tribute Page</h4>
             <p>A simple tribute page featuring Steve Jobs's timeline and some of his famous quotes. This was my first time using Bootstrap :)</p>
           </div>
+          </a>
+          <a href="https://url-shortener-microsrvc.herokuapp.com/" class="single-card back-end hide" target="_blank">
+            <div class="card-img">
+              <img class="card-img_src center-block" src="images/backend/urlShortener.png" alt="Screenshot of project">
+            </div>
+          <div class="blue-divider"></div>
+          <div class=card-info>
+            <h4 class="card-name">URL Shortener Microservice</h4>
+            <p>This service accepts a URL and will return both the original URL and shortened URL in a JSON response.
+                Built using MongoDB, Node.js and Express.
+            </p></div>
+          </a>
+          <a href="https://req-header-parser-srvc.herokuapp.com/" class="single-card back-end hide" target="_blank">
+            <div class="card-img">
+              <img class="card-img_src center-block" src="images/backend/RequestHeaderParser.png" alt="Screenshot of project">
+            </div>
+          <div class="blue-divider"></div>
+          <div class=card-info>
+            <h4 class="card-name">Request Header Parser Microservice</h4>
+            <p>This service returns your IP address, language, operating system, and browser specs.
+                Built using Node.js and Express.
+            </p></div>
+          </a>
+          <a href="https://timestamp-micro-srvc.herokuapp.com/" class="single-card back-end hide" target="_blank">
+            <div class="card-img">
+              <img class="card-img_src center-block" src="images/backend/Timestamp.png" alt="Screenshot of project">
+            </div>
+          <div class="blue-divider"></div>
+          <div class=card-info>
+            <h4 class="card-name">Timestamp Microservice</h4>
+            <p>
+                This service accepts a string and returns both the Unix timestamp and the natural language form of that date as a JSON object.
+                Built using Node.js and Express.
+            </p></div>
           </a>
         </div>
     </div>
