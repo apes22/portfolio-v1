@@ -378,6 +378,12 @@ be displayed while the background image is loading */
   display: none;
 }
 
+
+/******** BOOTSRAP FORM CONTROL  *******/
+.form-control{
+  font-size: 16px;
+}
+
 /******** CONTACT  *******/
 
 #contact a:visited{
