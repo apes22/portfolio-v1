@@ -1,0 +1,17 @@
+[{
+    "name": "EmpowerHer:SF",
+    "type": "front-end",
+    "description": "EmpowerHerSF focuses on providing Human Trafficking awareness and funding to local SF women shelters. The website matches you with local shelters that need items that you have available to donate.",
+    "img": "EmpowerHerSF_cover.png",
+    "url": "http://www.maribelduran.com/Hacking4Humanity2017/web/index.html",
+    "date-added": ""
+  },
+	{
+    "name": "Tic Tac Toe",
+    "type": "front-end",
+    "description": "A user can play a game of Tic Tac Toe with the computer and choose whether they want to play as X or O. The game will reset as soon as it's over. Built using: Javascript, jQuery, HTML, CSS3, and Bootstrap.",
+    "img": "TicTacToe.png",
+    "url": "https://maribelduran.github.io/tic-tac-toe/",
+    "date-added": ""
+  }
+]
