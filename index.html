@@ -10,9 +10,7 @@
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
   <link rel="stylesheet" href="css/style.css">
-  <!--<link href='https://fonts.googleapis.com/css?family=Ovo' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'>
-  -->
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -28,6 +26,21 @@
 </head>
 
 <body id="top" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="cover" class="animated fadeIn">
+        <div class="overlay">
+        </div>
+          <div class="center">
+            <h1 id="cover-name" class="text-center">
+              <b>HI, I'M MARIBEL</b>
+            </h1>
+            <p class="greetings">Let's change the world together!</p>
+          </div>
+          <div class="arrow animated bounceInDown">
+            <a href="#about" class="btn btn-md">
+              <span class="glyphicon glyphicon-menu-down"></span>
+            </a>
+          </div>
+      </div>
 <div class="container-fluid">
   <nav class="navbar navbar-fixed-top">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -51,21 +64,7 @@
         </ul>
       </div><!-- end navbar-collapse -->  
   </nav>
-  <div id="cover" class="animated fadeIn">
-  <div class="overlay">
-  </div>
-    <div class="center">
-      <h1 id="cover-name" class="text-center">
-        <b>HI, I'M MARIBEL</b>
-      </h1>
-      <p class="greetings">Let's change the world together!</p>
-    </div>
-    <div class="arrow animated bounceInDown">
-      <a href="#about" class="btn btn-md">
-        <span class="glyphicon glyphicon-menu-down"></span>
-      </a>
-    </div>
-  </div>
+
 
   <!-- ABOUT ME section -->
   <div id="about" class="section">
@@ -146,6 +145,7 @@
             <select id="select-project-type" class="form-control">
                 <option value="front-end" selected>Front End</option>
                 <option value="back-end">Back End</option>
+                <option value="react">React</option>
               </select>
             </div>
 
@@ -316,11 +316,20 @@
               Built using, MongoDB, Node.js, and Express.
             </p></div>
           </a>
+          <a href="https://www.maribelduran.com/camper-leaderboard/" class="single-card react hide" target="_blank">
+            <div class="card-img">
+              <img class="card-img_src center-block" src="images/react/CamperLeaderboard.png" alt="Screenshot of project">
+            </div>
+          <div class="blue-divider"></div>
+            <div class=card-info>
+            <h4 class="card-name">FCC Camper Leaderboard</h4>
+          <p>Shows a list of the FreeCodeCamp campers who've earned the most brownie points in the past 30 days and all timers.
+           Uses the FCC API to get FCC top campers information.</p>
         </div>
+        </a>
+      </div>
     </div>
   </div><!-- end  projects section -->
-
- 
 
   <!-- CONTACT section -->
   <div id="contact" class="section">
